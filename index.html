@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Scape room</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<style>
+p:not(.visible) {
+opacity: 0;
+transition: opacity 2s;
+}
+button {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+height: 120px;
+width: 30%;
+font-size: 390%;
+color:red;
+background-color: gainsboro;
+
+}
+</style>
+</head>
+<body >
+<h1>No hay mucho tiempo, teneis que daros prisa antes de que perdamos esta oportunidad</h1>
+<button onclick="myFunction()">TOP SECRET</button>
+<p id="1">Gracias a nuestros equipos de investigación hemos conseguido hacernos con un mensaje que creemos que nos puede acercar a nuestra ansiada vacuna.
+Hay que resolver este mensaje cuanto antes, no es exagerado decir que el destino de la humanidad depende de ello</p>
+<p id="2">El mensaje es el siguiente: "A45F"</p>
+<p id="3">Obviamente no podemos permitir que esta transmisión caiga en las manos equivocadas, es por esto que hemos codificado el mensaje para que solo los más cualificados puedan descifrarlo. Con el fin de ayudaros os hemos facilitado la clave necesaria para descifrar el código. Buena suerte!</p>
+
+<script>
+var cont = 1;
+
+function myFunction() {
+  if(myFunction) {
+  document.getElementById(cont).style.opacity = 1;
+    cont++;
+  }
+}
+</script>
+
+<body>
+</html> 
